@@ -1,0 +1,8 @@
+---
+- name: apache install
+  hosts: localhost
+  tasks:
+    - name: install apache with yum 
+      yum: name=httpd
+    - name: start httpd
+      service: name=httpd state=restarted enabled=yes
