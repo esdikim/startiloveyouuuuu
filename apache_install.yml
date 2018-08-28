@@ -5,4 +5,4 @@
     - name: install apache with yum 
       yum: name=httpd state=installed
     - name: start httpd
-      service: name=httpd state=restarted enabled=yes
+      service: name=httpd state=restart enabled=yes
