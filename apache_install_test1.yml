@@ -1,0 +1,10 @@
+---
+- name: apache 설치
+  hosts: Webserver
+  become: yes  #privilege
+  tasks:
+    - name: "apache 설치"
+      yum: name=httpd state=installed
+    - name: "apache 구동"
+      service: name=httpd state=started
+        
