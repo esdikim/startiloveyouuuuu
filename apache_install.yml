@@ -1,6 +1,7 @@
 ---
 # Apache Webserver 설치 후 구동하는 Ansible descript
-# AWS에서 처리 가능하도록 
+# AWS에서 처리 가능하도록
+# 약간 수정함 18.9.27
 - name: apache install
   hosts: webserver
   become: yes
