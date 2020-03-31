@@ -1,0 +1,9 @@
+[user]
+	name = ming9
+	email = minkyu76.jung@samsung.com
+[http "https://github.com"]
+	proxy = 70.10.15.10:8080
+	sslVerify = false
+    cookieFile = C:/Users/SDS/cookie.txt
+[http "https://code.sdsdev.co.kr"]
+	proxy = 
